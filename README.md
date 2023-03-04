@@ -11,3 +11,11 @@
 cd infra_project
 python manage.py runserver
 ```
+
+2) В docker-контейнере
+
+```bash
+docker build .
+docker image ls 
+docker run -p 5000:5000 <IMAGE_ID>
+```
