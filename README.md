@@ -19,3 +19,6 @@ docker build .
 docker image ls 
 docker run -p 5000:5000 <IMAGE_ID>
 ```
+
+С GitHub Actions производится проверка соответствия pep8, 
+тестам, далее обновляется образ на DockerHub, Проект автоматически разворачивается на сервере с указанным IP.
